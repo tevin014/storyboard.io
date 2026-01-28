@@ -1,0 +1,47 @@
+
+    body{
+        background-color: rgb(45, 43, 43);
+        padding-bottom: 200px;
+        margin-top: 100px;
+    }
+    .container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+
+    .container2{
+        display:grid;
+        margin-top: 30px;
+        grid-template-columns: 300px 300px 300px;
+        margin-left: 250px;
+        column-gap: 70px;
+        
+    }
+
+    .image-container {
+        width: 400px;
+        margin-left: 250px;
+    }
+
+    .image, .image1 {
+        width: 100%;
+    }
+
+    
+
+    .description{
+        background-color: rgb(215, 202, 202);
+        width: 500px;
+        font-size: large;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+    .horizontal-container{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
